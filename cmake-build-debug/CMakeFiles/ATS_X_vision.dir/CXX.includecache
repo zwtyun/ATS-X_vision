@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zwt/CLionProjects/ATS-X_vision/src/graph.h
+opencv2/opencv.hpp
+-
+opencv2/core.hpp
+-
+vector
+-
+
+/home/zwt/CLionProjects/ATS-X_vision/src/test.cpp
+iostream
+-
+graph.h
+/home/zwt/CLionProjects/ATS-X_vision/src/graph.h
+
