@@ -31,6 +31,10 @@ bool graph_A::detect_A(Mat img)
     }
 
     //边缘检测
+    //cvtColor(img, img, CV_RGB2GRAY);
+    //namedWindow("y", CV_WINDOW_NORMAL);//CV_WINDOW_NORMAL就是0
+    //imshow("gray", img);
+
     threshold(img, img, 40,255,THRESH_BINARY);  //260帧率相机 40    30帧率相机 0
     namedWindow("threshold", CV_WINDOW_NORMAL);//CV_WINDOW_NORMAL就是0
     imshow("threshold", img);
